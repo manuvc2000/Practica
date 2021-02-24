@@ -31,7 +31,7 @@ El despliegue
 
  
 - Conseguir conexión con MySQL e introducir el siguiente script: 
-
+--------------------------------------------------------------------------------------------------------------------------------------
 (El nombre de la base de datos es en mayusculas)
 
 CREATE DATABASE EJERCICIO; 
@@ -45,7 +45,7 @@ lastname VARCHAR(30) NOT NULL,
 email VARCHAR(50),
 reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ); 
-
+----------------------------------------------------------------------------------------------------------------------------------------
 2.Prerrequisitos: 
 
  - S. O Linux 
