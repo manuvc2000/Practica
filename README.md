@@ -30,6 +30,7 @@ El despliegue
 - Los instalables están en esta ruta  https://github.com/manuvc2000/Practica.git 
 
 - Conseguir conexión con MySQL e introducir el siguiente script: 
+
 {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
 (El nombre de la base de datos es en mayusculas)
 
