@@ -33,8 +33,9 @@ El despliegue
 - Conseguir conexión con MySQL e introducir el siguiente script: 
 
 (El nombre de la base de datos es en mayusculas)
-CREATE DATABASE EJERCICIO; 
 
+CREATE DATABASE EJERCICIO; 
+USE DATABASE EJERCICIO;
 CREATE TABLE clientes ( 
 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
 firstname VARCHAR(30) NOT NULL,
