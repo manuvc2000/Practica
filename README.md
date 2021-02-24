@@ -32,26 +32,16 @@ El despliegue
  
 - Conseguir conexión con MySQL e introducir el siguiente script: 
 
-CREATE DATABASE EJERCICIOS; 
+(El nombre de la base de datos es en mayusculas)
+CREATE DATABASE EJERCICIO; 
 
-CREATE TABLE CLIENTES ( 
-
-idUsuario int primary key not null, 
-
-nombre Varchar(30), 
-
-apellido Varchar(30) 
-
+CREATE TABLE clientes ( 
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+firstname VARCHAR(30) NOT NULL,
+lastname VARCHAR(30) NOT NULL,
+email VARCHAR(50),
+reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ); 
-
-Si se quiere introducir un cliente en la tabla cliente hay que introducir el siguiente script: 
-
- 
-INSERT INTO CLIENTES (idUsuario, nombre, apellido) VALUES (1,’Juan’, ‘Garcia’); 
-
- 
-
- 
 
 2.Prerrequisitos: 
 
